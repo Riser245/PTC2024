@@ -1,7 +1,31 @@
 .color_nav{
+    color: #ECECEC;
+}
+
+.color_nav_text{
     color: #2E4186;
 }
 
 .color_nav_crear_usu{
     color: #3149a1;
+}
+
+.boton {
+    display: inline-block;
+    border: 3px solid #3ED1FF;
+    border-radius: 10px; /* Ajusta el radio para bordes curvados */
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* Estilos para la imagen dentro del botón */
+.boton img {
+    display: block;
+    width: 60px; /* Asegura que la imagen se ajuste al tamaño del botón */
+    height: auto;
+    border-radius: 8px; 
+    border-color: #3ED1FF;
+    /*
+     Ajusta el radio para bordes curvados */
 }
