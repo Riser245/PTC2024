@@ -1,31 +1,48 @@
-.color_nav{
+/*Color de objetos del header*/
+.color_nav {
     color: #ECECEC;
 }
 
-.color_nav_text{
+.color_nav_text {
     color: #2E4186;
 }
 
-.color_nav_crear_usu{
+.color_nav_crear_usu {
     color: #3149a1;
 }
 
 .boton {
     display: inline-block;
     border: 3px solid #3ED1FF;
-    border-radius: 10px; /* Ajusta el radio para bordes curvados */
+    border-radius: 10px;
     padding: 10px;
     margin: 10px;
     text-decoration: none;
 }
 
-/* Estilos para la imagen dentro del botón */
 .boton img {
     display: block;
-    width: 60px; /* Asegura que la imagen se ajuste al tamaño del botón */
+    width: 60px;
     height: auto;
-    border-radius: 8px; 
+    border-radius: 8px;
     border-color: #3ED1FF;
-    /*
-     Ajusta el radio para bordes curvados */
+}
+
+/*colores de objetos del footer*/
+
+.footer_color_boton {
+    background-color: #043342;
+}
+
+.footer_color_boton:hover {
+    background-color: white;
+}
+
+.footer_color_boton img {
+
+    transition: filter 0.5s;
+}
+
+.footer_color_boton:hover img {
+    filter: invert(1);
 }
