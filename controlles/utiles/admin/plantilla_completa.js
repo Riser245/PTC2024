@@ -33,7 +33,9 @@ header.innerHTML = `<nav class="navbar navbar-expand-md bg-body-tertiary" id="in
 
 const footer = document.querySelector("footer");
 
-footer.innerHTML = `<!-- Grid container -->
+footer.innerHTML = `
+<div class="bg-light text-center text-white">
+<!-- Grid container -->
 <div class="container p-4 pb-0" >
     <!-- Section: Social media -->
     <section class="mb-4">
@@ -63,4 +65,5 @@ footer.innerHTML = `<!-- Grid container -->
     © 2024 Copyright:
     <a class="text-white" href="#">Quiropráctica Específica</a>
 </div>
-<!-- Copyright -->`
+<!-- Copyright -->
+</div>`
