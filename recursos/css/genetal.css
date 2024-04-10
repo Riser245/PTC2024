@@ -1,0 +1,49 @@
+
+
+.cardnota {
+    margin: 40px;
+    margin-top: 20px;
+
+}
+
+.btneditnota{
+    width: 30px !important;
+    height: 30px !important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}   
+
+.btnElimNota {
+    width: 30px !important;
+    height: 3s0px !important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+} 
+
+.btnrbitornota{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: aliceblue;
+} 
+
+.btnborradornota{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(255, 255, 255);
+} 
